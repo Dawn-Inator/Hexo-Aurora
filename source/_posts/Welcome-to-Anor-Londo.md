@@ -1,5 +1,6 @@
 ---
 title: Welcome to Anor Londo
+date: 2024-04-18 02:00:00
 cover: /imgs/Dark-Souls/Elden_HD.jpg
 categories: Author
 tags:
