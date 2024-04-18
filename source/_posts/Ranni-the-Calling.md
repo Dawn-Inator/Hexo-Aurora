@@ -1,5 +1,6 @@
 ---
 title: Ranni the Calling
+date: 2024-04-18 03:00:00
 cover: /imgs/Profile/Ranni.png
 categories: Games
 tags:
