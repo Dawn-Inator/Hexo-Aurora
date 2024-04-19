@@ -138,7 +138,7 @@ gitalk:
   repo: 'Hexo-Aurora' ## dev-blo-comments
   owner: 'Dawn-Inator' ## owner name
   admin: ['Dawn-Inator'] ## ['admin_name']
-  id: Hexo-Aurora
+  id: uid
   language: en
   distractionFreeMode: true
   recentComment: true
