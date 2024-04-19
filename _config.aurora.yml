@@ -131,7 +131,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: false
   clientID: '3709ebab3125966b78bd'
   clientSecret: 'f1393217f3c8ab3e1f63f743b66c3f8384e10086'
