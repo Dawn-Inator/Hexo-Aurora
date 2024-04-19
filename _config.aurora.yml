@@ -141,7 +141,7 @@ gitalk:
   id: Hexo-Aurora
   language: en
   distractionFreeMode: true
-  recentComment: false
+  recentComment: true
   proxy: ''
 
 # Valine comment plugin (recommended!)
