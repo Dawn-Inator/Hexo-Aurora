@@ -71,6 +71,11 @@ menu:
         i18n:
           en: 'Genesis Forum'
         path: 'https://forum.inator.site'
+      Fireshare:
+        name: 'Fireshare Video'
+        i18n:
+          en: 'Fireshare Video'
+        path: 'https://video.inator.site'
 
 #! ---------------------------------------------------------------
 #! Theme Config
