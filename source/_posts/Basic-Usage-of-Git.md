@@ -51,21 +51,25 @@ git commit   将暂存区的内容提交到本地仓库。所有的更新都会�
 **git remote 命令用于在远程仓库的操作。**
 
 - 显示所有远程仓库：
+  
 ```
 git remote -v
 ```
 
 - 添加远程版本库：
+  
 ```
 git remote add [别名] [url 地址]
 ```
 
 - 删除远程仓库
+  
 ```
 git remote rm name
 ```
 
 - 修改仓库名
+  
 ```
 git remote rename old_name new_name
 ```
@@ -89,21 +93,25 @@ git merge   将远程仓库上的所有更新内容（假设已经被推送到�
 
 ### 2.3、上传项目到远程仓库
 - 从将本地的分支版本上传到远程并合并可以使用 git push，如下：
+  
 ```
 git push <远程主机名> <本地分支名>:<远程分支名>
 ```
 
 - 如果本地分支名与远程分支名相同，可以省略冒号：
+  
 ```
 git push <远程主机名> <本地分支名>
 ```
 
 - 如果本地版本与远程版本有差异，但又要强制推送可以使用 --force 参数
+  
 ```
 git push --force origin master
 ```
 
 - 删除主机的分支可以使用 --delete 参数，以下命令表示删除 origin 主机的 master 分支：
+  
 ```
 git push origin --delete master
 ```
@@ -115,6 +123,7 @@ git config --list
 ```
 ### 3.2、查看仓库状态
 - git status 命令用于查看在你上次提交之后是否有对文件进行再次修改。
+  
 ```
 git status
 ```
@@ -126,11 +135,13 @@ git rm  xxx.txt
 - *注意：这个命令使用了之后，要 git commit -m “xxx”之后才算是真正的删除了。*
 
 - *如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 -f。*
+  
 ```
 git rm -f xxx
 ```
 
 - 如果想把文件从暂存区域移除，但仍然希望保留在当前工作目录中，即从跟踪清单中删除，使用 --cached 选项即可：
+  
 ```
 git rm --cached <file>
 ```
@@ -184,6 +195,7 @@ git log --pretty=format:%h:%s   查看提交日志，显示sha1及提交comments
 ### 3.6、还原文件（回退）
 
 - git revert和git reset的区别
+  
 ```
 git revert   是撤销某次操作，此次操作之前的commit都会被保留
 
@@ -214,6 +226,7 @@ git commit --amend   修改最后一次提交。
 
 
 - 回退版本之后，如果推送远程库是发生错误信息时可以用：
+  
 ```
 git push -f [ ] [ ]	强推上去
 ```
@@ -248,10 +261,12 @@ git merge
 
 ### 4.4、列出分支
 - 列出分支基本命令
+  
 ```
 git branch
 ```
 - 没有参数时，git branch 会列出你在本地的分支。
+  
 ```
 $ git branch
 * master
@@ -263,6 +278,7 @@ $ git branch
 
 ### 4.5、分支合并
 - 一旦某分支有了独立内容，你最终会希望将它合并回到你的主分支。 你可以使用以下命令将任何分支合并到当前分支中去：
+  
 ```
 git merge [分支名]
 ```
@@ -270,12 +286,14 @@ git merge [分支名]
 ### 4.6、删除分支
 
 - 合并完后就可以删除分支
+  
 ```
 $ git branch -d newtest
 Deleted branch newtest (was c1501a2).
 ```
 
 - 删除后， 就只剩下 master 分支了：
+  
 ```
 $ git branch
 * master
