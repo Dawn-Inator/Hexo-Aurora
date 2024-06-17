@@ -76,6 +76,7 @@ Haha，I wanna one day i would get the **RTX4090**.
 | **Elden Ring** | *2023.03~2023.04* |
 | **Bloody Spell** | *2023.05~2023.05* |
 | **Genshin Impact** | *2023.06~now* |
+| **Detroit: Become Human** | *2024.05~2024.05* |
 
 
 
@@ -87,9 +88,9 @@ Haha，I wanna one day i would get the **RTX4090**.
   - dawn.inator.lzl@qq.com
 
 - **Social Media**:
-  - **Facebook**: [Dawn Inator](https://www.facebook.com/dawning.inator.lzl)
+  - **Facebook**: [Dawn Inator](https://www.facebook.com/dawn.inator.meta)
   - **Discord**: dawn_inator_lzl
-  - **Twitter**: [@dawn_inator_lzl](https://twitter.com/dawn_inator_lzl)
+  - **Twitter**: [Dawn Inator](https://twitter.com/dawn_inator_lzl)
   - **GitHub**: [Dawn-Inator](https://github.com/Dawn-Inator)
 
 
