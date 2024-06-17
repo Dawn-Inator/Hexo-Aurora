@@ -38,6 +38,7 @@ Haha，I wanna one day i would get the **RTX4090**.
 - vue
 - bootstrap
 - axios
+- nginx
 - http and https
 
 
